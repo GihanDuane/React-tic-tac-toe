@@ -45,6 +45,8 @@
 }
 
 .board-row button {
-  padding: 20px;
+  padding: 30px;
   background: #f4f4f4;
+  font-weight: 600;
+  font-size: 30px;
 }
