@@ -1,15 +1,15 @@
-import { useState } from "react";
+// import { useState } from "react";
 
-function Square() {
-    const [value, setvalue] = useState(null);
+function Square({value, onsquareClick}) {
+    // const [value, setvalue] = useState(null);
 
-    function handleCLick () {
-        // console.log("clicked!")
-        setvalue("X");
-    }
-    
+    // function handleCLick () {
+    //     // console.log("clicked!")
+    //     setvalue("X");
+    // }
+
     return (
-    <button className="square" onClick={handleCLick}>{value}</button>
+    <button className="square" onClick={onsquareClick}>{value}</button>
     )
 };
 export default Square;
