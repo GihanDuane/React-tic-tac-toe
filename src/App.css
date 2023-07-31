@@ -36,3 +36,9 @@
   font-size: 20px;
   font-weight: 600;
 }
+
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
